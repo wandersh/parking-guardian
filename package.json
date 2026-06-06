@@ -1,0 +1,26 @@
+{
+  "name": "flash-guardian",
+  "version": "1.0.0",
+  "description": "AI-Powered Test Intelligence System for Flash",
+  "main": "index.js",
+  "scripts": {
+    "seed": "ts-node mock-api/seed.ts",
+    "api": "json-server mock-api/db.json --port 3001 --host 127.0.0.1",
+    "api:start": "npm run seed && npm run api",
+    "test": "playwright test",
+    "test:api": "playwright test --project=api-tests",
+    "test:e2e": "playwright test --project=journey-tests",
+    "report": "playwright show-report"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^8.4.1",
+    "json-server": "^0.17.4"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.44.0",
+    "@types/node": "^20.12.12",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5",
+    "wait-on": "^7.2.0"
+  }
+}

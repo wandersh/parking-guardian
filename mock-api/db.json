@@ -1,0 +1,1397 @@
+{
+  "garages": [
+    {
+      "id": 1,
+      "name": "Keebler Inc Garage 1",
+      "address": "577 Kassulke Shore",
+      "totalSpaces": 239,
+      "availableSpaces": 235,
+      "hourlyRate": 9,
+      "status": "active",
+      "hasEVCharging": true,
+      "evChargerCount": 4
+    },
+    {
+      "id": 2,
+      "name": "Kshlerin - Connelly Garage 2",
+      "address": "4367 Ibrahim Field",
+      "totalSpaces": 237,
+      "availableSpaces": 23,
+      "hourlyRate": 12,
+      "status": "active",
+      "hasEVCharging": false,
+      "evChargerCount": 0
+    },
+    {
+      "id": 3,
+      "name": "Murray, Deckow and Kiehn Garage 3",
+      "address": "15754 Gulgowski Streets",
+      "totalSpaces": 180,
+      "availableSpaces": 94,
+      "hourlyRate": 12,
+      "status": "active",
+      "hasEVCharging": true,
+      "evChargerCount": 3
+    },
+    {
+      "id": 4,
+      "name": "Herzog - Reichert Garage 4",
+      "address": "3633 Darrick Forks",
+      "totalSpaces": 248,
+      "availableSpaces": 246,
+      "hourlyRate": 11,
+      "status": "active",
+      "hasEVCharging": false,
+      "evChargerCount": 0
+    },
+    {
+      "id": 5,
+      "name": "Kerluke, Barrows and Keeling Garage 5",
+      "address": "51403 Low Road",
+      "totalSpaces": 253,
+      "availableSpaces": 193,
+      "hourlyRate": 14,
+      "status": "active",
+      "hasEVCharging": true,
+      "evChargerCount": 2
+    }
+  ],
+  "vehicles": [
+    {
+      "id": 1,
+      "plate": "MZ25LPT",
+      "type": "car",
+      "ownerId": "7dc94865-0456-4bad-9e48-7a49d94a8d21"
+    },
+    {
+      "id": 2,
+      "plate": "TX21FMO",
+      "type": "car",
+      "ownerId": "18e2aebf-0794-4882-b42c-b158be8365ed"
+    },
+    {
+      "id": 3,
+      "plate": "SJ30GHJ",
+      "type": "motorcycle",
+      "ownerId": "8b8f05ac-090b-4e24-96c3-55d80a8132e5"
+    },
+    {
+      "id": 4,
+      "plate": "RF82OVW",
+      "type": "motorcycle",
+      "ownerId": "6a5c5d26-d057-4889-b984-0efae5384784"
+    },
+    {
+      "id": 5,
+      "plate": "HZ52SON",
+      "type": "truck",
+      "ownerId": "56abd229-fd5f-4d11-8603-e7e83104de39"
+    },
+    {
+      "id": 6,
+      "plate": "LB74TNB",
+      "type": "motorcycle",
+      "ownerId": "b4d62ccc-4a4f-4a61-83a7-e8b67270c994"
+    },
+    {
+      "id": 7,
+      "plate": "WP58MIE",
+      "type": "truck",
+      "ownerId": "0c295c71-ad3d-49ee-9211-72b616d86173"
+    },
+    {
+      "id": 8,
+      "plate": "VJ49VVA",
+      "type": "motorcycle",
+      "ownerId": "87e99634-b46b-4ad0-a9a7-0ab67b1f8110"
+    },
+    {
+      "id": 9,
+      "plate": "PZ77NOX",
+      "type": "car",
+      "ownerId": "4b7af05c-3846-45ca-9607-c295adb2861f"
+    },
+    {
+      "id": 10,
+      "plate": "GE96XNC",
+      "type": "motorcycle",
+      "ownerId": "75875d02-3117-430c-94e6-0545fd88a801"
+    },
+    {
+      "id": 11,
+      "plate": "UZ43CCE",
+      "type": "motorcycle",
+      "ownerId": "8f755c1c-9337-49b4-96e3-9fbaadf0e408"
+    },
+    {
+      "id": 12,
+      "plate": "BO91GOJ",
+      "type": "car",
+      "ownerId": "3f193a46-ab46-45c0-bf52-87289644a60d"
+    },
+    {
+      "id": 13,
+      "plate": "QA91MUW",
+      "type": "car",
+      "ownerId": "cb4fcddb-5ff6-4adb-957e-12ffad1d21d9"
+    },
+    {
+      "id": 14,
+      "plate": "AO70AOC",
+      "type": "motorcycle",
+      "ownerId": "35ea558b-9a3f-494a-a341-6e70e790fe85"
+    },
+    {
+      "id": 15,
+      "plate": "QA34XYS",
+      "type": "car",
+      "ownerId": "10b6e58d-f07e-40a8-9e89-9cd555e66c65"
+    },
+    {
+      "id": 16,
+      "plate": "GC94XQJ",
+      "type": "car",
+      "ownerId": "ae473456-56ec-4dbb-a7f8-6d3b184b2518"
+    },
+    {
+      "id": 17,
+      "plate": "PJ05RES",
+      "type": "truck",
+      "ownerId": "83841b98-a598-4bb1-bef9-131b8c732d67"
+    },
+    {
+      "id": 18,
+      "plate": "UT21IEY",
+      "type": "motorcycle",
+      "ownerId": "a8c6b538-76c0-4a00-911a-56f2754c5b31"
+    },
+    {
+      "id": 19,
+      "plate": "SF38ZLE",
+      "type": "car",
+      "ownerId": "3e757e10-8bd7-4679-90c0-657fc9c529c3"
+    },
+    {
+      "id": 20,
+      "plate": "EY33WHN",
+      "type": "motorcycle",
+      "ownerId": "4ef2da5c-fdf1-46aa-b96a-40164b426920"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "garageId": 1,
+      "vehicleId": 3,
+      "entryTime": "2026-06-05T17:19:03.963Z",
+      "exitTime": "2026-06-06T07:30:19.348Z",
+      "status": "disputed",
+      "spaceNumber": 106
+    },
+    {
+      "id": 2,
+      "garageId": 5,
+      "vehicleId": 9,
+      "entryTime": "2026-06-06T01:34:47.580Z",
+      "exitTime": "2026-06-06T06:56:52.457Z",
+      "status": "disputed",
+      "spaceNumber": 220
+    },
+    {
+      "id": 3,
+      "garageId": 3,
+      "vehicleId": 6,
+      "entryTime": "2026-06-06T11:16:18.509Z",
+      "exitTime": "2026-06-06T11:22:09.513Z",
+      "status": "completed",
+      "spaceNumber": 166
+    },
+    {
+      "id": 4,
+      "garageId": 3,
+      "vehicleId": 18,
+      "entryTime": "2026-06-05T03:41:12.634Z",
+      "exitTime": "2026-06-05T13:44:41.610Z",
+      "status": "completed",
+      "spaceNumber": 95
+    },
+    {
+      "id": 5,
+      "garageId": 2,
+      "vehicleId": 3,
+      "entryTime": "2026-06-04T16:33:56.180Z",
+      "exitTime": "2026-06-04T20:59:53.629Z",
+      "status": "disputed",
+      "spaceNumber": 199
+    },
+    {
+      "id": 6,
+      "garageId": 2,
+      "vehicleId": 9,
+      "entryTime": "2026-06-05T16:33:55.736Z",
+      "exitTime": "2026-06-06T08:04:45.662Z",
+      "status": "disputed",
+      "spaceNumber": 224
+    },
+    {
+      "id": 7,
+      "garageId": 1,
+      "vehicleId": 5,
+      "entryTime": "2026-06-06T13:00:06.069Z",
+      "exitTime": "2026-06-06T13:02:28.606Z",
+      "status": "disputed",
+      "spaceNumber": 6
+    },
+    {
+      "id": 8,
+      "garageId": 1,
+      "vehicleId": 15,
+      "entryTime": "2026-06-04T20:19:38.755Z",
+      "exitTime": "2026-06-06T12:42:52.460Z",
+      "status": "completed",
+      "spaceNumber": 112
+    },
+    {
+      "id": 9,
+      "garageId": 3,
+      "vehicleId": 8,
+      "entryTime": "2026-06-05T10:44:46.908Z",
+      "exitTime": "2026-06-06T02:37:57.478Z",
+      "status": "disputed",
+      "spaceNumber": 155
+    },
+    {
+      "id": 10,
+      "garageId": 3,
+      "vehicleId": 14,
+      "entryTime": "2026-06-06T04:09:34.432Z",
+      "exitTime": "2026-06-06T06:55:14.028Z",
+      "status": "completed",
+      "spaceNumber": 140
+    },
+    {
+      "id": 11,
+      "garageId": 2,
+      "vehicleId": 3,
+      "entryTime": "2026-06-05T03:01:11.353Z",
+      "exitTime": null,
+      "status": "active",
+      "spaceNumber": 40
+    },
+    {
+      "id": 12,
+      "garageId": 1,
+      "vehicleId": 13,
+      "entryTime": "2026-06-04T16:45:19.845Z",
+      "exitTime": null,
+      "status": "active",
+      "spaceNumber": 58
+    },
+    {
+      "id": 13,
+      "garageId": 2,
+      "vehicleId": 15,
+      "entryTime": "2026-06-05T21:00:00.440Z",
+      "exitTime": null,
+      "status": "active",
+      "spaceNumber": 83
+    },
+    {
+      "id": 14,
+      "garageId": 4,
+      "vehicleId": 6,
+      "entryTime": "2026-06-05T10:58:20.854Z",
+      "exitTime": null,
+      "status": "active",
+      "spaceNumber": 248
+    },
+    {
+      "id": 15,
+      "garageId": 5,
+      "vehicleId": 1,
+      "entryTime": "2026-06-04T18:00:25.508Z",
+      "exitTime": null,
+      "status": "active",
+      "spaceNumber": 164
+    },
+    {
+      "garageId": 5,
+      "vehicleId": 20,
+      "spaceNumber": 65,
+      "entryTime": "2026-06-06T16:02:08.837Z",
+      "exitTime": null,
+      "status": "active",
+      "id": 16
+    },
+    {
+      "garageId": 2,
+      "vehicleId": 19,
+      "spaceNumber": 17,
+      "entryTime": "2026-06-06T16:02:08.960Z",
+      "exitTime": "2026-06-06T16:02:08.986Z",
+      "status": "completed",
+      "id": 17
+    },
+    {
+      "garageId": 1,
+      "vehicleId": 1,
+      "spaceNumber": 42,
+      "entryTime": "2026-06-06T16:02:10.665Z",
+      "exitTime": null,
+      "status": "active",
+      "id": 18
+    },
+    {
+      "garageId": 1,
+      "vehicleId": 9,
+      "spaceNumber": 57,
+      "entryTime": "2026-06-06T16:02:56.128Z",
+      "exitTime": null,
+      "status": "active",
+      "id": 19
+    },
+    {
+      "garageId": 2,
+      "vehicleId": 10,
+      "spaceNumber": 51,
+      "entryTime": "2026-06-06T16:02:56.142Z",
+      "exitTime": null,
+      "status": "active",
+      "id": 20
+    },
+    {
+      "garageId": 5,
+      "vehicleId": 10,
+      "spaceNumber": 4,
+      "entryTime": "2026-06-06T16:02:56.230Z",
+      "exitTime": "2026-06-06T16:02:56.261Z",
+      "status": "completed",
+      "id": 21
+    },
+    {
+      "garageId": 1,
+      "vehicleId": 1,
+      "spaceNumber": 42,
+      "entryTime": "2026-06-06T16:02:57.399Z",
+      "exitTime": null,
+      "status": "active",
+      "id": 22
+    },
+    {
+      "garageId": 5,
+      "vehicleId": 16,
+      "spaceNumber": 15,
+      "entryTime": "2026-06-06T16:03:25.071Z",
+      "exitTime": "2026-06-06T16:03:25.124Z",
+      "status": "completed",
+      "id": 23
+    },
+    {
+      "garageId": 4,
+      "vehicleId": 17,
+      "spaceNumber": 59,
+      "entryTime": "2026-06-06T16:03:25.079Z",
+      "exitTime": "2026-06-06T16:03:25.109Z",
+      "status": "completed",
+      "id": 24
+    },
+    {
+      "garageId": 5,
+      "vehicleId": 16,
+      "spaceNumber": 93,
+      "entryTime": "2026-06-06T16:03:25.201Z",
+      "exitTime": null,
+      "status": "active",
+      "id": 25
+    },
+    {
+      "garageId": 1,
+      "vehicleId": 1,
+      "spaceNumber": 42,
+      "entryTime": "2026-06-06T16:03:27.051Z",
+      "exitTime": "2026-06-06T16:03:27.279Z",
+      "status": "completed",
+      "id": 26
+    },
+    {
+      "garageId": 3,
+      "vehicleId": 18,
+      "spaceNumber": 50,
+      "entryTime": "2026-06-06T23:00:43.398Z",
+      "exitTime": null,
+      "status": "active",
+      "id": 27
+    },
+    {
+      "garageId": 5,
+      "vehicleId": 6,
+      "spaceNumber": 49,
+      "entryTime": "2026-06-06T23:00:43.482Z",
+      "exitTime": "2026-06-06T23:00:43.525Z",
+      "status": "completed",
+      "id": 28
+    },
+    {
+      "garageId": 1,
+      "vehicleId": 8,
+      "spaceNumber": 96,
+      "entryTime": "2026-06-06T23:00:43.575Z",
+      "exitTime": "2026-06-06T23:00:43.595Z",
+      "status": "completed",
+      "id": 29
+    },
+    {
+      "garageId": 1,
+      "vehicleId": 1,
+      "spaceNumber": 42,
+      "entryTime": "2026-06-06T23:00:44.923Z",
+      "exitTime": "2026-06-06T23:00:45.159Z",
+      "status": "completed",
+      "id": 30
+    },
+    {
+      "garageId": 1,
+      "vehicleId": 2,
+      "spaceNumber": 31,
+      "entryTime": "2026-06-06T23:31:33.382Z",
+      "exitTime": "2026-06-06T23:31:33.412Z",
+      "status": "completed",
+      "id": 31
+    },
+    {
+      "garageId": 2,
+      "vehicleId": 8,
+      "spaceNumber": 77,
+      "entryTime": "2026-06-06T23:31:33.401Z",
+      "exitTime": null,
+      "status": "active",
+      "id": 32
+    },
+    {
+      "garageId": 1,
+      "vehicleId": 2,
+      "spaceNumber": 78,
+      "entryTime": "2026-06-06T23:31:33.475Z",
+      "exitTime": "2026-06-06T23:31:33.515Z",
+      "status": "completed",
+      "id": 33
+    },
+    {
+      "garageId": 1,
+      "vehicleId": 1,
+      "spaceNumber": 42,
+      "entryTime": "2026-06-06T23:31:34.422Z",
+      "exitTime": "2026-06-06T23:31:34.606Z",
+      "status": "completed",
+      "id": 34
+    },
+    {
+      "garageId": 3,
+      "vehicleId": 3,
+      "spaceNumber": 11,
+      "entryTime": "2026-06-06T23:34:02.877Z",
+      "exitTime": "2026-06-06T23:34:02.933Z",
+      "status": "completed",
+      "id": 35
+    },
+    {
+      "garageId": 3,
+      "vehicleId": 2,
+      "spaceNumber": 54,
+      "entryTime": "2026-06-06T23:34:03.022Z",
+      "exitTime": "2026-06-06T23:34:03.051Z",
+      "status": "completed",
+      "id": 36
+    },
+    {
+      "garageId": 1,
+      "vehicleId": 9,
+      "spaceNumber": 95,
+      "entryTime": "2026-06-06T23:34:03.121Z",
+      "exitTime": null,
+      "status": "active",
+      "id": 37
+    },
+    {
+      "garageId": 1,
+      "vehicleId": 1,
+      "spaceNumber": 42,
+      "entryTime": "2026-06-06T23:34:03.993Z",
+      "exitTime": "2026-06-06T23:34:04.202Z",
+      "status": "completed",
+      "id": 38
+    }
+  ],
+  "payments": [
+    {
+      "id": 1,
+      "sessionId": 1,
+      "chargerId": null,
+      "amount": 27,
+      "parkingAmount": 27,
+      "evAmount": 0,
+      "method": "card",
+      "status": "pending",
+      "covers": [
+        "parking"
+      ],
+      "processedAt": "2026-06-05T21:45:54.916Z"
+    },
+    {
+      "id": 2,
+      "sessionId": 2,
+      "chargerId": 8,
+      "amount": 50,
+      "parkingAmount": 29,
+      "evAmount": 21,
+      "method": "card",
+      "status": "completed",
+      "covers": [
+        "parking",
+        "ev_charging"
+      ],
+      "processedAt": "2026-06-06T00:26:50.915Z"
+    },
+    {
+      "id": 3,
+      "sessionId": 3,
+      "chargerId": null,
+      "amount": 11,
+      "parkingAmount": 11,
+      "evAmount": 0,
+      "method": "app",
+      "status": "failed",
+      "covers": [
+        "parking"
+      ],
+      "processedAt": "2026-06-05T23:44:09.565Z"
+    },
+    {
+      "id": 4,
+      "sessionId": 4,
+      "chargerId": 5,
+      "amount": 45,
+      "parkingAmount": 26,
+      "evAmount": 19,
+      "method": "card",
+      "status": "pending",
+      "covers": [
+        "parking",
+        "ev_charging"
+      ],
+      "processedAt": "2026-06-06T05:11:02.741Z"
+    },
+    {
+      "id": 5,
+      "sessionId": 5,
+      "chargerId": null,
+      "amount": 39,
+      "parkingAmount": 39,
+      "evAmount": 0,
+      "method": "card",
+      "status": "completed",
+      "covers": [
+        "parking"
+      ],
+      "processedAt": "2026-06-05T20:33:28.770Z"
+    },
+    {
+      "id": 6,
+      "sessionId": 6,
+      "chargerId": null,
+      "amount": 29,
+      "parkingAmount": 29,
+      "evAmount": 0,
+      "method": "card",
+      "status": "pending",
+      "covers": [
+        "parking"
+      ],
+      "processedAt": "2026-06-06T01:19:04.637Z"
+    },
+    {
+      "id": 7,
+      "sessionId": 7,
+      "chargerId": null,
+      "amount": 11,
+      "parkingAmount": 11,
+      "evAmount": 0,
+      "method": "app",
+      "status": "pending",
+      "covers": [
+        "parking"
+      ],
+      "processedAt": "2026-06-05T18:20:56.339Z"
+    },
+    {
+      "id": 8,
+      "sessionId": 8,
+      "chargerId": 1,
+      "amount": 28,
+      "parkingAmount": 10,
+      "evAmount": 18,
+      "method": "card",
+      "status": "failed",
+      "covers": [
+        "parking",
+        "ev_charging"
+      ],
+      "processedAt": "2026-06-05T16:28:33.692Z"
+    },
+    {
+      "id": 9,
+      "sessionId": 9,
+      "chargerId": null,
+      "amount": 20,
+      "parkingAmount": 20,
+      "evAmount": 0,
+      "method": "app",
+      "status": "completed",
+      "covers": [
+        "parking"
+      ],
+      "processedAt": "2026-06-05T17:56:34.820Z"
+    },
+    {
+      "id": 10,
+      "sessionId": 10,
+      "chargerId": 6,
+      "amount": 48,
+      "parkingAmount": 22,
+      "evAmount": 26,
+      "method": "app",
+      "status": "pending",
+      "covers": [
+        "parking",
+        "ev_charging"
+      ],
+      "processedAt": "2026-06-06T10:54:07.893Z"
+    },
+    {
+      "sessionId": 1,
+      "amount": 33,
+      "method": "app",
+      "status": "pending",
+      "covers": [
+        "parking"
+      ],
+      "processedAt": "2026-06-06T16:02:08.588Z",
+      "id": 11
+    },
+    {
+      "sessionId": 2,
+      "chargerId": 1,
+      "parkingAmount": 10,
+      "evAmount": 15,
+      "amount": 25,
+      "method": "card",
+      "status": "pending",
+      "covers": [
+        "parking",
+        "ev_charging"
+      ],
+      "processedAt": "2026-06-06T16:02:08.681Z",
+      "id": 12
+    },
+    {
+      "sessionId": 1,
+      "amount": 0,
+      "method": "card",
+      "status": "pending",
+      "covers": [
+        "parking"
+      ],
+      "processedAt": "2026-06-06T16:02:08.807Z",
+      "id": 13
+    },
+    {
+      "sessionId": 1,
+      "amount": -50,
+      "method": "card",
+      "status": "pending",
+      "covers": [
+        "parking"
+      ],
+      "processedAt": "2026-06-06T16:02:08.831Z",
+      "id": 14
+    },
+    {
+      "sessionId": 10,
+      "amount": 20,
+      "method": "card",
+      "status": "pending",
+      "covers": [
+        "parking"
+      ],
+      "processedAt": "2026-06-06T16:02:10.851Z",
+      "id": 15
+    },
+    {
+      "sessionId": 10,
+      "amount": 20,
+      "method": "card",
+      "status": "pending",
+      "covers": [
+        "parking"
+      ],
+      "processedAt": "2026-06-06T16:02:10.857Z",
+      "id": 16
+    },
+    {
+      "sessionId": 10,
+      "amount": 20,
+      "method": "card",
+      "status": "pending",
+      "covers": [
+        "parking"
+      ],
+      "processedAt": "2026-06-06T16:02:10.859Z",
+      "id": 17
+    },
+    {
+      "sessionId": 1,
+      "amount": 20,
+      "method": "bitcoin",
+      "status": "pending",
+      "covers": [
+        "parking"
+      ],
+      "processedAt": "2026-06-06T16:02:11.253Z",
+      "id": 18
+    },
+    {
+      "sessionId": 1,
+      "amount": -50,
+      "method": "card",
+      "status": "pending",
+      "covers": [
+        "parking"
+      ],
+      "processedAt": "2026-06-06T16:02:55.982Z",
+      "id": 19
+    },
+    {
+      "sessionId": 1,
+      "amount": 13,
+      "method": "cash",
+      "status": "pending",
+      "covers": [
+        "parking"
+      ],
+      "processedAt": "2026-06-06T16:02:56.047Z",
+      "id": 20
+    },
+    {
+      "sessionId": 1,
+      "amount": 0,
+      "method": "card",
+      "status": "pending",
+      "covers": [
+        "parking"
+      ],
+      "processedAt": "2026-06-06T16:02:56.062Z",
+      "id": 21
+    },
+    {
+      "sessionId": 10,
+      "amount": 20,
+      "method": "card",
+      "status": "pending",
+      "covers": [
+        "parking"
+      ],
+      "processedAt": "2026-06-06T16:02:57.190Z",
+      "id": 22
+    },
+    {
+      "sessionId": 10,
+      "amount": 20,
+      "method": "card",
+      "status": "pending",
+      "covers": [
+        "parking"
+      ],
+      "processedAt": "2026-06-06T16:02:57.195Z",
+      "id": 23
+    },
+    {
+      "sessionId": 10,
+      "amount": 20,
+      "method": "card",
+      "status": "pending",
+      "covers": [
+        "parking"
+      ],
+      "processedAt": "2026-06-06T16:02:57.197Z",
+      "id": 24
+    },
+    {
+      "sessionId": 99999,
+      "amount": 20,
+      "method": "card",
+      "status": "pending",
+      "covers": [
+        "parking"
+      ],
+      "processedAt": "2026-06-06T16:02:57.360Z",
+      "id": 25
+    },
+    {
+      "sessionId": 1,
+      "amount": 20,
+      "method": "bitcoin",
+      "status": "pending",
+      "covers": [
+        "parking"
+      ],
+      "processedAt": "2026-06-06T16:02:57.675Z",
+      "id": 26
+    },
+    {
+      "sessionId": 1,
+      "amount": 0,
+      "method": "card",
+      "status": "pending",
+      "covers": [
+        "parking"
+      ],
+      "processedAt": "2026-06-06T16:03:24.903Z",
+      "id": 27
+    },
+    {
+      "sessionId": 1,
+      "amount": 27,
+      "method": "card",
+      "status": "pending",
+      "covers": [
+        "parking"
+      ],
+      "processedAt": "2026-06-06T16:03:24.870Z",
+      "id": 28
+    },
+    {
+      "sessionId": 2,
+      "chargerId": 1,
+      "parkingAmount": 10,
+      "evAmount": 15,
+      "amount": 25,
+      "method": "card",
+      "status": "pending",
+      "covers": [
+        "parking",
+        "ev_charging"
+      ],
+      "processedAt": "2026-06-06T16:03:25.408Z",
+      "id": 29
+    },
+    {
+      "sessionId": 1,
+      "amount": -50,
+      "method": "card",
+      "status": "pending",
+      "covers": [
+        "parking"
+      ],
+      "processedAt": "2026-06-06T16:03:25.451Z",
+      "id": 30
+    },
+    {
+      "sessionId": 10,
+      "amount": 20,
+      "method": "card",
+      "status": "pending",
+      "covers": [
+        "parking"
+      ],
+      "processedAt": "2026-06-06T16:03:26.984Z",
+      "id": 31
+    },
+    {
+      "sessionId": 10,
+      "amount": 20,
+      "method": "card",
+      "status": "pending",
+      "covers": [
+        "parking"
+      ],
+      "processedAt": "2026-06-06T16:03:26.993Z",
+      "id": 32
+    },
+    {
+      "sessionId": 10,
+      "amount": 20,
+      "method": "card",
+      "status": "pending",
+      "covers": [
+        "parking"
+      ],
+      "processedAt": "2026-06-06T16:03:26.996Z",
+      "id": 33
+    },
+    {
+      "sessionId": 99999,
+      "amount": 20,
+      "method": "card",
+      "status": "pending",
+      "covers": [
+        "parking"
+      ],
+      "processedAt": "2026-06-06T16:03:27.079Z",
+      "id": 34
+    },
+    {
+      "sessionId": 1,
+      "amount": 20,
+      "method": "bitcoin",
+      "status": "pending",
+      "covers": [
+        "parking"
+      ],
+      "processedAt": "2026-06-06T16:03:27.231Z",
+      "id": 35
+    },
+    {
+      "sessionId": 26,
+      "chargerId": 4,
+      "parkingAmount": 8,
+      "evAmount": 15,
+      "amount": 23,
+      "method": "app",
+      "status": "pending",
+      "covers": [
+        "parking",
+        "ev_charging"
+      ],
+      "processedAt": "2026-06-06T16:03:27.305Z",
+      "id": 36
+    },
+    {
+      "sessionId": 1,
+      "amount": -50,
+      "method": "card",
+      "status": "pending",
+      "covers": [
+        "parking"
+      ],
+      "processedAt": "2026-06-06T23:00:43.425Z",
+      "id": 37
+    },
+    {
+      "sessionId": 1,
+      "amount": 29,
+      "method": "app",
+      "status": "pending",
+      "covers": [
+        "parking"
+      ],
+      "processedAt": "2026-06-06T23:00:43.460Z",
+      "id": 38
+    },
+    {
+      "sessionId": 2,
+      "chargerId": 1,
+      "parkingAmount": 10,
+      "evAmount": 15,
+      "amount": 25,
+      "method": "card",
+      "status": "pending",
+      "covers": [
+        "parking",
+        "ev_charging"
+      ],
+      "processedAt": "2026-06-06T23:00:43.512Z",
+      "id": 39
+    },
+    {
+      "sessionId": 1,
+      "amount": 0,
+      "method": "card",
+      "status": "pending",
+      "covers": [
+        "parking"
+      ],
+      "processedAt": "2026-06-06T23:00:43.548Z",
+      "id": 40
+    },
+    {
+      "sessionId": 10,
+      "amount": 20,
+      "method": "card",
+      "status": "pending",
+      "covers": [
+        "parking"
+      ],
+      "processedAt": "2026-06-06T23:00:44.668Z",
+      "id": 41
+    },
+    {
+      "sessionId": 10,
+      "amount": 20,
+      "method": "card",
+      "status": "pending",
+      "covers": [
+        "parking"
+      ],
+      "processedAt": "2026-06-06T23:00:44.675Z",
+      "id": 42
+    },
+    {
+      "sessionId": 10,
+      "amount": 20,
+      "method": "card",
+      "status": "pending",
+      "covers": [
+        "parking"
+      ],
+      "processedAt": "2026-06-06T23:00:44.677Z",
+      "id": 43
+    },
+    {
+      "sessionId": 99999,
+      "amount": 20,
+      "method": "card",
+      "status": "pending",
+      "covers": [
+        "parking"
+      ],
+      "processedAt": "2026-06-06T23:00:44.716Z",
+      "id": 44
+    },
+    {
+      "sessionId": 30,
+      "chargerId": 4,
+      "parkingAmount": 8,
+      "evAmount": 15,
+      "amount": 23,
+      "method": "app",
+      "status": "pending",
+      "covers": [
+        "parking",
+        "ev_charging"
+      ],
+      "processedAt": "2026-06-06T23:00:45.212Z",
+      "id": 45
+    },
+    {
+      "sessionId": 1,
+      "amount": 20,
+      "method": "bitcoin",
+      "status": "pending",
+      "covers": [
+        "parking"
+      ],
+      "processedAt": "2026-06-06T23:00:45.795Z",
+      "id": 46
+    },
+    {
+      "sessionId": 1,
+      "amount": -50,
+      "method": "card",
+      "status": "pending",
+      "covers": [
+        "parking"
+      ],
+      "processedAt": "2026-06-06T23:31:33.396Z",
+      "id": 47
+    },
+    {
+      "sessionId": 2,
+      "chargerId": 1,
+      "parkingAmount": 10,
+      "evAmount": 15,
+      "amount": 25,
+      "method": "card",
+      "status": "pending",
+      "covers": [
+        "parking",
+        "ev_charging"
+      ],
+      "processedAt": "2026-06-06T23:31:33.416Z",
+      "id": 48
+    },
+    {
+      "sessionId": 1,
+      "amount": 0,
+      "method": "card",
+      "status": "pending",
+      "covers": [
+        "parking"
+      ],
+      "processedAt": "2026-06-06T23:31:33.420Z",
+      "id": 49
+    },
+    {
+      "sessionId": 1,
+      "amount": 27,
+      "method": "cash",
+      "status": "pending",
+      "covers": [
+        "parking"
+      ],
+      "processedAt": "2026-06-06T23:31:33.558Z",
+      "id": 50
+    },
+    {
+      "sessionId": 1,
+      "amount": 20,
+      "method": "bitcoin",
+      "status": "pending",
+      "covers": [
+        "parking"
+      ],
+      "processedAt": "2026-06-06T23:31:34.387Z",
+      "id": 51
+    },
+    {
+      "sessionId": 10,
+      "amount": 20,
+      "method": "card",
+      "status": "pending",
+      "covers": [
+        "parking"
+      ],
+      "processedAt": "2026-06-06T23:31:34.388Z",
+      "id": 52
+    },
+    {
+      "sessionId": 10,
+      "amount": 20,
+      "method": "card",
+      "status": "pending",
+      "covers": [
+        "parking"
+      ],
+      "processedAt": "2026-06-06T23:31:34.393Z",
+      "id": 53
+    },
+    {
+      "sessionId": 10,
+      "amount": 20,
+      "method": "card",
+      "status": "pending",
+      "covers": [
+        "parking"
+      ],
+      "processedAt": "2026-06-06T23:31:34.395Z",
+      "id": 54
+    },
+    {
+      "sessionId": 99999,
+      "amount": 20,
+      "method": "card",
+      "status": "pending",
+      "covers": [
+        "parking"
+      ],
+      "processedAt": "2026-06-06T23:31:34.400Z",
+      "id": 55
+    },
+    {
+      "sessionId": 34,
+      "chargerId": 4,
+      "parkingAmount": 8,
+      "evAmount": 15,
+      "amount": 23,
+      "method": "app",
+      "status": "pending",
+      "covers": [
+        "parking",
+        "ev_charging"
+      ],
+      "processedAt": "2026-06-06T23:31:34.631Z",
+      "id": 56
+    },
+    {
+      "sessionId": 1,
+      "amount": 23,
+      "method": "card",
+      "status": "pending",
+      "covers": [
+        "parking"
+      ],
+      "processedAt": "2026-06-06T23:34:02.782Z",
+      "id": 57
+    },
+    {
+      "sessionId": 1,
+      "amount": 0,
+      "method": "card",
+      "status": "pending",
+      "covers": [
+        "parking"
+      ],
+      "processedAt": "2026-06-06T23:34:03.085Z",
+      "id": 58
+    },
+    {
+      "sessionId": 2,
+      "chargerId": 1,
+      "parkingAmount": 10,
+      "evAmount": 15,
+      "amount": 25,
+      "method": "card",
+      "status": "pending",
+      "covers": [
+        "parking",
+        "ev_charging"
+      ],
+      "processedAt": "2026-06-06T23:34:03.149Z",
+      "id": 59
+    },
+    {
+      "sessionId": 1,
+      "amount": -50,
+      "method": "card",
+      "status": "pending",
+      "covers": [
+        "parking"
+      ],
+      "processedAt": "2026-06-06T23:34:03.173Z",
+      "id": 60
+    },
+    {
+      "sessionId": 1,
+      "amount": 20,
+      "method": "bitcoin",
+      "status": "pending",
+      "covers": [
+        "parking"
+      ],
+      "processedAt": "2026-06-06T23:34:03.944Z",
+      "id": 61
+    },
+    {
+      "sessionId": 10,
+      "amount": 20,
+      "method": "card",
+      "status": "pending",
+      "covers": [
+        "parking"
+      ],
+      "processedAt": "2026-06-06T23:34:03.968Z",
+      "id": 62
+    },
+    {
+      "sessionId": 10,
+      "amount": 20,
+      "method": "card",
+      "status": "pending",
+      "covers": [
+        "parking"
+      ],
+      "processedAt": "2026-06-06T23:34:03.973Z",
+      "id": 63
+    },
+    {
+      "sessionId": 10,
+      "amount": 20,
+      "method": "card",
+      "status": "pending",
+      "covers": [
+        "parking"
+      ],
+      "processedAt": "2026-06-06T23:34:03.976Z",
+      "id": 64
+    },
+    {
+      "sessionId": 99999,
+      "amount": 20,
+      "method": "card",
+      "status": "pending",
+      "covers": [
+        "parking"
+      ],
+      "processedAt": "2026-06-06T23:34:03.991Z",
+      "id": 65
+    },
+    {
+      "sessionId": 38,
+      "chargerId": 4,
+      "parkingAmount": 8,
+      "evAmount": 15,
+      "amount": 23,
+      "method": "app",
+      "status": "pending",
+      "covers": [
+        "parking",
+        "ev_charging"
+      ],
+      "processedAt": "2026-06-06T23:34:04.233Z",
+      "id": 66
+    }
+  ],
+  "ev_chargers": [
+    {
+      "id": 1,
+      "garageId": 1,
+      "spaceNumber": 14,
+      "status": "charging",
+      "currentSessionId": 8,
+      "kwh": null
+    },
+    {
+      "id": 2,
+      "garageId": 1,
+      "spaceNumber": 11,
+      "status": "charging",
+      "currentSessionId": null,
+      "kwh": null
+    },
+    {
+      "id": 3,
+      "garageId": 1,
+      "spaceNumber": 10,
+      "status": "charging",
+      "currentSessionId": null,
+      "kwh": null
+    },
+    {
+      "id": 4,
+      "garageId": 1,
+      "spaceNumber": 12,
+      "status": "available",
+      "currentSessionId": null,
+      "kwh": null
+    },
+    {
+      "id": 5,
+      "garageId": 3,
+      "spaceNumber": 7,
+      "status": "charging",
+      "currentSessionId": 4,
+      "kwh": null
+    },
+    {
+      "id": 6,
+      "garageId": 3,
+      "spaceNumber": 10,
+      "status": "charging",
+      "currentSessionId": 10,
+      "kwh": null
+    },
+    {
+      "id": 7,
+      "garageId": 3,
+      "spaceNumber": 14,
+      "status": "offline",
+      "currentSessionId": null,
+      "kwh": null
+    },
+    {
+      "id": 8,
+      "garageId": 5,
+      "spaceNumber": 19,
+      "status": "charging",
+      "currentSessionId": 2,
+      "kwh": null
+    },
+    {
+      "id": 9,
+      "garageId": 5,
+      "spaceNumber": 3,
+      "status": "charging",
+      "currentSessionId": null,
+      "kwh": null
+    }
+  ]
+}
